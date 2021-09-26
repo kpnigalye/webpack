@@ -1,0 +1,37 @@
+{
+  "name": "sample-webpack",
+  "version": "1.0.0",
+  "description": "Sample JS project to explain how to configure Webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=production&&webpack serve",
+    "build": "set NODE_ENV=production&&webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpnigalye/webpack-tutorial.git"
+  },
+  "keywords": [
+    "webpack",
+    "js"
+  ],
+  "author": "Krishna Nigalye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kpnigalye/webpack-tutorial/issues"
+  },
+  "homepage": "https://github.com/kpnigalye/webpack-tutorial#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.3.0",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^3.3.0",
+    "svg-inline-loader": "^0.8.2",
+    "webpack": "^5.54.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.3.0"
+  }
+}

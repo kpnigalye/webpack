@@ -1,0 +1,1 @@
+(()=>{function o(o,n){n("Like I always say, "+o)}function n(o){console.log(o)}o("dont give up on your dreams!",n),o("follow your dreams!",n)})();
